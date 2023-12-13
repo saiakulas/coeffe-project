@@ -1,0 +1,145 @@
+*{
+    font-family: montserrat;
+}
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height:100vh;
+   
+}
+.carousel-caption{
+    bottom:220px;
+    z-index:2;
+}
+.carousel-caption h5{
+ font-size:45px;
+ text-transform: uppercase;
+ letter-spacing:2px;
+ margin-top:25px;
+}
+.carousel-caption p{
+    width:60%;
+    margin:auto;
+    font-size: 18px;
+    line-height:1.9;
+   }
+.carousel-inner::before{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+   background:rgba(0,0,0,0.7);
+    z-index:1;
+   }  
+   .navbar-nav a{
+    font-size: 15px;
+    text-transform:uppercase;
+    font-weight: 500;
+   }
+   .navbar-light .navbar-brand{
+    color:black;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+   }
+   .navbar-light .navbar-brand:focus,
+   .navbar-light .navbar-brand:hover{
+      color:black;
+   }
+   .navbar-light .navbar-nav .navbar-link{
+    color:black;
+ }
+ .w-100{
+    height:100vh;
+ }
+ @media only screen and (max-width:767px)
+ {
+    .navbar-nav{
+        text-align:center;
+    }
+    .carousel-caption{
+        bottom:125px;
+    }
+    .carousel-caption h5{
+       font-size: 17px;
+    }
+    .carousel-caption a{
+        font-size: 10px 15px;
+     }
+ }
+ .abt{
+    width:100%;
+    height: 350px;
+    background-color: black;
+ }
+
+ .tot{
+    width:100%;
+    height:400px;
+    background-color:black(0, 0, 0);
+ }
+ .spl{
+    width:100%;
+    height:300px;
+    background-color:black;
+ }
+ .new{
+    background-color: black;
+    width:100%;
+    height:300px;
+ }
+ .con{
+    background-color: black;
+    width:100%;
+    height:300px;  
+ }
+ .footercontainer{
+    padding: 70px 30px 20px;
+ }
+ .social{
+    display: flex;
+    justify-content:center;
+ }
+ .social a{
+    text-decoration:none;
+    padding:10px;
+    background-color:aliceblue;
+    margin: 10px;
+    border-radius:50%;
+ }
+ .social a i{
+   font-size:2em;
+   color: black;
+   opacity:0.9;
+ }
+ .lks a{
+text-decoration:none;
+display: flex;
+justify-content:center;
+ }
+ .lks a li{
+   color:aliceblue;
+  list-style:none;
+}
+p{
+ display:flex;
+ justify-content:center;
+}
+.offcanvas-title{
+   text-align: center;
+}
+#txt{
+      color:rgb(44, 23, 23);
+      background:rgba(248,249,250);
+      text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+      color:rgb(44, 23, 23);
+      background:rgba(248,249,250);
+
+}
